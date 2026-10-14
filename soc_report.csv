@@ -1,0 +1,201 @@
+﻿time,event_id,type,risk,image,detail,reason
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=1} -MaxEvents 50 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,LOW,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\SearchProtocolHost.exe,"Parent=C:\Windows\System32\SearchIndexer.exe | Command=""C:\WINDOWS\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe11_ Global\UsGthrCtrlFltPipeMssGthrPipe11 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0;",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesUpdater.exe,"Parent=C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe | Command=""C:/Program Files/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesUpdater.exe"" queryinstallation",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\taskhostw.exe,Parent=C:\Windows\System32\svchost.exe | Command=taskhostw.exe,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k GPSvcGroup,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wlidsvc,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\backgroundTaskHost.exe,"Parent=C:\Windows\System32\svchost.exe | Command=""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:Global.DesktopSpotlight.AppXz2j21w56bgxkgsjhtn7zkjsepq96erz2.mca",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesUpdater.exe,"Parent=C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe | Command=""C:/Program Files/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesUpdater.exe"" queryinstallation",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\conhost.exe,Parent=C:\Windows\System32\sdbinst.exe | Command=\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\sdbinst.exe,Parent=C:\Windows\System32\svchost.exe | Command=C:\WINDOWS\System32\sdbinst.exe -m -bg,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k wsappx -p -s AppXSvc,expected behavior
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=22} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=11} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=3} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=1} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,LOW,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\System32\svchost.exe -k wsappx -p -s ClipSVC,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wlidsvc,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\SearchProtocolHost.exe,"Parent=C:\Windows\System32\SearchIndexer.exe | Command=""C:\WINDOWS\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe10_ Global\UsGthrCtrlFltPipeMssGthrPipe10 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0;",expected behavior
+-,1,PROCESS,LOW,C:\Program Files (x86)\Epic Games\Epic Online Services\managedArtifacts\98bc04bc842e4906993fd6d6644ffb8d\EOSOverlayRenderer-Win64-Shipping.exe,"Parent=C:\Program Files (x86)\Epic Games\Epic Online Services\managedArtifacts\98bc04bc842e4906993fd6d6644ffb8d\EOSOverlayRenderer-Win64-Shipping.exe | Command=""C:\Program Files (x86)\Epic Games\Epic Online Services\managedArtifacts\98bc04bc842e4906993fd6d6644ffb8d\EOSOverlayRenderer-Win64-Shipping.exe"" --type=utility",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\RuntimeBroker.exe,Parent=C:\Windows\System32\svchost.exe | Command=C:\Windows\System32\RuntimeBroker.exe -Embedding,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\backgroundTaskHost.exe,"Parent=C:\Windows\System32\svchost.exe | Command=""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXass2jm06pp1n7aktd4dcj305y31qrc54.mca",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,"Parent=C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe | Command=""C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"" --type=renderer --enable-distillability-service",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesUpdater.exe,"Parent=C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe | Command=""C:/Program Files/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesUpdater.exe"" queryinstallation",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\WINDOWS\system32\notepad.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wlidsvc,expected behavior
+-,1,PROCESS,LOW,C:\Users\wiyad\AppData\Local\Microsoft\OneDrive\26.178.0913.0007\FileCoAuth.exe,"Parent=C:\Windows\System32\svchost.exe | Command=""C:\Users\wiyad\AppData\Local\Microsoft\OneDrive\26.178.0913.0007\FileCoAuth.exe"" -Embedding",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k LocalService -p -s CaptureService,expected behavior
+-,1,PROCESS,LOW,C:\Program Files\WindowsApps\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\SnippingTool\SnippingTool.exe,"Parent=C:\Windows\explorer.exe | Command=""C:\Program Files\WindowsApps\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\SnippingTool\SnippingTool.exe"" ms-screenclip:///?source=HotKey",expected behavior
+-,1,PROCESS,LOW,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\sppsvc.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\sppsvc.exe,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\taskhostw.exe,Parent=C:\Windows\System32\svchost.exe | Command=taskhostw.exe,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\RuntimeBroker.exe,Parent=C:\Windows\System32\svchost.exe | Command=C:\Windows\System32\RuntimeBroker.exe -Embedding,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\backgroundTaskHost.exe,"Parent=C:\Windows\System32\svchost.exe | Command=""C:\WINDOWS\system32\BackgroundTaskHost.exe"" -ServerName:BackgroundTaskHost.WebAccountProvider",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wisvc,expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\SearchProtocolHost.exe,"Parent=C:\Windows\System32\SearchIndexer.exe | Command=""C:\WINDOWS\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe9_ Global\UsGthrCtrlFltPipeMssGthrPipe9 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0;",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesUpdater.exe,"Parent=C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe | Command=""C:/Program Files/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesUpdater.exe"" queryinstallation",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\WINDOWS\system32\notepad.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"Parent=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe | Command=""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --video-capture-use-gpu-memory-buffer --lang=en-US",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k GPSvcGroup,expected behavior
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=22} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=11} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=3} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,REVIEW,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"Parent=C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe | Command=powershell -Command ""Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-Sysmon/Operational';Id=1} -MaxEvents 20 | Format-List TimeCreated,Message""",script/command process
+-,1,PROCESS,LOW,C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\Users\wiyad\AppData\Local\Programs\Python\Python312\python.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,"Parent=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe | Command=""C:\WINDOWS\system32\notepad.exe"" soc_analyzer.py",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\SearchProtocolHost.exe,"Parent=C:\Windows\System32\SearchIndexer.exe | Command=""C:\WINDOWS\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe8_ Global\UsGthrCtrlFltPipeMssGthrPipe8 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0;",expected behavior
+-,1,PROCESS,LOW,C:\Windows\System32\svchost.exe,Parent=C:\Windows\System32\services.exe | Command=C:\WINDOWS\system32\svchost.exe -k LocalService -p -s CaptureService,expected behavior
+-,1,PROCESS,LOW,C:\Program Files\WindowsApps\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\SnippingTool\SnippingTool.exe,"Parent=C:\Windows\explorer.exe | Command=""C:\Program Files\WindowsApps\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\SnippingTool\SnippingTool.exe"" ms-screenclip:///?source=HotKey",expected behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,fe80:0:0:0:7cf3:aaff:fefa:8365:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.203.204:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,REVIEW,System,172.17.201.237:137 | Protocol=udp | Initiated=true,uncommon destination port
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,fe80:0:0:0:80e:f56c:670d:1f21:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,fe80:0:0:0:80e:f56c:670d:1f21:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.32:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,fe80:0:0:0:dc4a:35ff:fee4:d77b:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,fe80:0:0:0:dc4a:35ff:fee4:d77b:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,fe80:0:0:0:82f:1d00:f4e1:a7b8:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.201.213:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,REVIEW,System,172.17.201.237:137 | Protocol=udp | Initiated=true,uncommon destination port
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.1:53 | Protocol=udp | Initiated=true,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.201.237:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,fe80:0:0:0:14cb:6123:e0fa:fcbc:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.201.237:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.201.237:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,fe80:0:0:0:48f1:90ff:fe7f:4113:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.201.90:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,REVIEW,C:\Windows\System32\svchost.exe,172.17.203.154:53775 | Protocol=udp | Initiated=false,uncommon destination port
+-,3,NETWORK,REVIEW,C:\Windows\System32\svchost.exe,172.17.203.61:55556 | Protocol=udp | Initiated=false,uncommon destination port
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.203.32:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.32:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,REVIEW,C:\Windows\System32\svchost.exe,172.17.203.61:55556 | Protocol=udp | Initiated=false,uncommon destination port
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.203.33:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,fe80:0:0:0:8c1:dd8e:9f45:4b3b:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.203.232:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.232:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.203.33:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,fe80:0:0:0:9b9b:7db9:adc1:4906:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.203.33:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.203.33:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.33:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,fe80:0:0:0:8455:deff:fee8:e18b:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,fe80:0:0:0:8455:deff:fee8:e18b:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.201.210:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,172.17.203.1:53 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,172.17.203.1:53 | Protocol=udp | Initiated=true,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,172.17.203.1:53 | Protocol=udp | Initiated=true,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.133:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,fe80:0:0:0:2434:b3ff:fe7e:1e2e:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.202.111:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,REVIEW,System,172.17.203.252:138 | Protocol=udp | Initiated=false,uncommon destination port
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,110.78.191.20:53 | Protocol=udp | Initiated=true,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,172.17.203.133:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,fe80:0:0:0:1028:121d:8272:2a9f:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Windows\System32\svchost.exe,fe80:0:0:0:1028:121d:8272:2a9f:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.201.101:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe,35.168.57.57:443 | Protocol=tcp | Initiated=true,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,172.17.201.101:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,3,NETWORK,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,172.17.201.101:5353 | Protocol=udp | Initiated=false,expected network behavior
+-,11,FILE,REVIEW,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_knuakxtu.ksp.psm1,script/command process
+-,11,FILE,SUSPICIOUS,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_r0myl1jt.sos.ps1,"script/command process, executable/script created, executable/script created in risky directory"
+-,11,FILE,REVIEW,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive,script/command process
+-,11,FILE,REVIEW,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_id20nrws.3mw.psm1,script/command process
+-,11,FILE,SUSPICIOUS,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_ekdoqwnj.xoo.ps1,"script/command process, executable/script created, executable/script created in risky directory"
+-,11,FILE,LOW,C:\WINDOWS\system32\svchost.exe,C:\Windows\Prefetch\POWERSHELL.EXE-CA1AE517.pf,normal file creation
+-,11,FILE,REVIEW,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive,script/command process
+-,11,FILE,REVIEW,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_3ynplqmk.sfg.psm1,script/command process
+-,11,FILE,SUSPICIOUS,C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Users\wiyad\AppData\Local\Temp\__PSScriptPolicyTest_dbzx45z5.gub.ps1,"script/command process, executable/script created, executable/script created in risky directory"
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\439896cb-cff0-4fc4-a2db-7d348959f30c.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State763fdf11-61bc-4d0a-b2c9-95600552ace9.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\session.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\.codex\..codex-global-state.json.bak.tmp-1791947037617-3f49586d-5f30-4481-bd2d-d2141ef2365d,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\.codex\..codex-global-state.json.tmp-1791947037593-2c1ba0a1-0578-4c62-b871-85cc335cd708,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\2e5e00daee91c61d\codex.exe,C:\Users\wiyad\AppData\Local\Temp\etilqs_2pE7Md1Mg1UvIoX,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\.codex\..codex-global-state.json.bak.tmp-1791947036812-db7571d9-8291-40e9-a323-be312b9798ad,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\.codex\..codex-global-state.json.tmp-1791947036802-308c415a-2fb9-47a3-862a-f567241a7a46,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\ffae7193-b646-493e-b7e0-e0875ec65f14.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State45a8b684-a31b-4708-832b-eaa81f445b9c.tmp,normal file creation
+-,11,FILE,LOW,C:\WINDOWS\System32\AggregatorHost.exe,C:\ProgramData\Microsoft\Diagnosis\AggregatorStorage\AdoptionHeartbeat$,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\0c37b7c3-a6a3-4865-82c8-8780098b9e06.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State4fb372fe-6081-4645-a7b1-229860c7a3a8.tmp,normal file creation
+-,11,FILE,LOW,C:\WINDOWS\system32\svchost.exe,C:\Windows\Prefetch\SEARCHPROTOCOLHOST.EXE-69C456C3.pf,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,C:\Users\wiyad\AppData\Local\Microsoft\Edge\User Data\Default\16e34103-b046-48be-952f-0b1f1b4d3dd8.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,C:\Users\wiyad\AppData\Local\Microsoft\Edge\User Data\Default\Preferences8824a67c-1c4e-4911-86d3-494676d38ff2.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\e3a67a7f-362a-4ae4-a9b8-cc6dab2a9005.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\Local Stateabf50077-b745-4474-8b2c-ae6f0075c468.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,C:\Users\wiyad\AppData\Local\Packages\Microsoft.WindowsNotepad_8wekyb3d8bbwe\LocalState\TabState\79a27f65-6d74-42d8-8425-a02f893d0f0f.bin.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\session.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\Default\Network\4e8ae2cd-65e4-4f6b-95ce-f253a7d1932e.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\Default\Network\TransportSecurityfd75a9e8-4de0-4532-bd29-18de0bb4a9d0.tmp,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,C:\Users\wiyad\AppData\Local\Packages\Microsoft.WindowsNotepad_8wekyb3d8bbwe\LocalState\TabState\79a27f65-6d74-42d8-8425-a02f893d0f0f.bin.tmp,normal file creation
+-,11,FILE,LOW,C:\WINDOWS\system32\svchost.exe,C:\Windows\Prefetch\TASKHOSTW.EXE-2E5D4B75.pf,normal file creation
+-,11,FILE,LOW,C:\Users\wiyad\AppData\Local\OpenAI\Codex\bin\2e5e00daee91c61d\codex.exe,C:\Users\wiyad\AppData\Local\Temp\etilqs_LVMjyDfFlU0eTDE,normal file creation
+-,11,FILE,LOW,C:\WINDOWS\system32\svchost.exe,C:\Windows\Prefetch\EPICGAMESUPDATER.EXE-D1FFF5F5.pf,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\.codex\..codex-global-state.json.bak.tmp-1791946976774-4c684b28-3049-4a14-841c-ae90281ea52a,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\.codex\..codex-global-state.json.tmp-1791946976761-ced0672f-488d-4526-a11f-54a0bbcee933,normal file creation
+-,11,FILE,LOW,C:\Program Files\WindowsApps\OpenAI.Codex_26.1007.2314.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,C:\Users\wiyad\AppData\Local\Packages\OpenAI.Codex_2p2nqsd0c76g0\LocalCache\Roaming\Codex\web\Codex\sentry\scope_v3.json,normal file creation
+-,11,FILE,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,C:\Users\wiyad\AppData\Local\BraveSoftware\Brave-Browser\User Data\9d33c2d7-dd94-404f-9e48-c383c9bb9eed.tmp,normal file creation
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,237.201.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,57.57.168.35.in-addr.arpa. | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe,datarouter.ol.epicgames.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,221.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,c.c.a.5.1.a.a.a.c.0.2.e.5.c.8.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,149.175.232.3.in-addr.arpa. | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe,yt4.ggpht.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,datarouter.ol.epicgames.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Users\wiyad\AppData\Local\Microsoft\OneDrive\OneDrive.exe,my.microsoftpersonalcontent.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,142.126.254.169.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,98.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Program Files (x86)\Google\Chrome Remote Desktop\154.0.8037.40\remoting_host.exe,instantmessaging-pa.googleapis.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\System32\svchost.exe,v20.events.data.microsoft.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,90.201.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,c.b.c.f.a.f.0.e.3.2.1.6.b.c.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,3.1.1.4.f.7.e.f.f.f.0.9.1.f.8.4.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,235.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,f.4.6.d.8.f.e.f.f.f.9.a.0.b.4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,219.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,0.f.f.6.3.1.e.f.f.f.3.a.0.9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,65.109.239.64.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,214.20.85.98.in-addr.arpa. | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe,datarouter.ol.epicgames.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,datarouter.ol.epicgames.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,30.73.42.20.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\System32\svchost.exe,v20.events.data.microsoft.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\System32\svchost.exe,v10.events.data.microsoft.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,99.107.254.169.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,222.59.230.52.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,137.144.190.20.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\System32\svchost.exe,licensing.mp.microsoft.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,f.3.4.5.5.6.e.f.f.f.a.d.c.e.4.e.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\System32\svchost.exe,ocsp.digicert.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\System32\svchost.exe,login.live.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,1.123.239.64.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,245.250.217.44.in-addr.arpa. | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files (x86)\Epic Games\Epic Online Services\EpicOnlineServicesUserHelper.exe,datarouter.ol.epicgames.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,103.108.82.100.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,105.237.62.100.in-addr.arpa. | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Program Files\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe,datarouter.ol.epicgames.com | Status=0,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,5.3.9.9.8.c.3.b.7.b.e.3.c.5.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,106.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,f.6.3.0.e.6.b.1.7.e.2.d.0.d.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,235.201.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,5.8.f.1.2.3.e.f.f.f.f.b.5.f.8.a.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,2.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,e.f.a.d.9.0.f.4.f.a.f.5.0.c.8.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,1.c.3.1.2.7.6.4.6.d.a.9.5.7.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,80.203.17.172.in-addr.arpa. | Status=9003,normal DNS query
+-,22,DNS,LOW,C:\Windows\Sysmon64.exe,c.9.5.d.5.7.8.a.e.7.f.c.4.c.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. | Status=9003,normal DNS query
